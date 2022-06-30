@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hubinter@v1
+        uses: actions/Dockerhub@v1
         with:
           who-to-greet: 'Octat'
       - name: Get the output time
